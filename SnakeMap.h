@@ -1,17 +1,17 @@
-/** 
+ï»¿/** 
 	@file	SnakeMap.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	°ÔÀÓÀÇ ¸ğµç ¿ÀºêÁ§Æ®°¡ ÂüÁ¶ÇÒ Å¸ÀÏÀÇ Á¤º¸¸¦ °¡Áö°í ÀÖ´Â Å¬·¡½º
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	ê²Œì„ì˜ ëª¨ë“  ì˜¤ë¸Œì íŠ¸ê°€ ì°¸ì¡°í•  íƒ€ì¼ì˜ ì •ë³´ë¥¼ ê°€ì§€ê³  ìˆëŠ” í´ë˜ìŠ¤
 */
 
 #pragma once
 class SnakeMap
 {
 private:
-	int width_;  ///< Å¸ÀÏÀÇ °¡·Î ±æÀÌ
-	int height_; ///< Å¸ÀÏÀÇ ¼¼·Î±æÀÌ
-	std::vector<std::vector<char>> tilesInfo_; ///< tilesInfo_[height][widht] 2Â÷¿ø¹è¿­
+	int width_;  ///< íƒ€ì¼ì˜ ê°€ë¡œ ê¸¸ì´
+	int height_; ///< íƒ€ì¼ì˜ ì„¸ë¡œê¸¸ì´
+	std::vector<std::vector<char>> tilesInfo_; ///< tilesInfo_[height][widht] 2ì°¨ì›ë°°ì—´
 
 public:
 	SnakeMap(int width, int height);

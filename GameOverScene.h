@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	GameOverScene.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	°ÔÀÓ¿À¹ö Scene Å¬·¡½º.
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	ê²Œì„ì˜¤ë²„ Scene í´ë˜ìŠ¤.
 */
 
 #pragma once

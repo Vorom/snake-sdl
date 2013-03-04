@@ -1,11 +1,11 @@
-/** 
+ï»¿/** 
 	@file	stdafx.cpp
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief  Ç¥ÁØ Æ÷ÇÔ ÆÄÀÏ¸¸ µé¾î ÀÖ´Â ¼Ò½º ÆÄÀÏÀÔ´Ï´Ù. \n
-			snake_SDL.pch´Â ¹Ì¸® ÄÄÆÄÀÏµÈ Çì´õ°¡ µË´Ï´Ù. \n
-			stdafx.obj¿¡´Â ¹Ì¸® ÄÄÆÄÀÏµÈ Çü½Ä Á¤º¸°¡ Æ÷ÇÔµË´Ï´Ù. \n
-			TODO: ÇÊ¿äÇÑ Ãß°¡ Çì´õ´Â ÀÌ ÆÄÀÏÀÌ ¾Æ´Ñ STDAFX.H¿¡¼­ ÂüÁ¶ÇÕ´Ï´Ù.
+	@author ì‹¬ìž¬í™˜(sim436@gmail.com)
+	@brief  í‘œì¤€ í¬í•¨ íŒŒì¼ë§Œ ë“¤ì–´ ìžˆëŠ” ì†ŒìŠ¤ íŒŒì¼ìž…ë‹ˆë‹¤. \n
+			snake_SDL.pchëŠ” ë¯¸ë¦¬ ì»´íŒŒì¼ëœ í—¤ë”ê°€ ë©ë‹ˆë‹¤. \n
+			stdafx.objì—ëŠ” ë¯¸ë¦¬ ì»´íŒŒì¼ëœ í˜•ì‹ ì •ë³´ê°€ í¬í•¨ë©ë‹ˆë‹¤. \n
+			TODO: í•„ìš”í•œ ì¶”ê°€ í—¤ë”ëŠ” ì´ íŒŒì¼ì´ ì•„ë‹Œ STDAFX.Hì—ì„œ ì°¸ì¡°í•©ë‹ˆë‹¤.
 */
 
 #include "stdafx.h"

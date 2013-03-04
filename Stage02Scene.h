@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	Stage02Scene.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	Sanke °ÔÀÓ¿¡¼­ Stage 2 ÀÇ Scene Å¬·¡½º
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	Sanke ê²Œì„ì—ì„œ Stage 2 ì˜ Scene í´ë˜ìŠ¤
 */
 
 #pragma once

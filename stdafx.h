@@ -1,10 +1,10 @@
-/** 
+ï»¿/** 
 	@file	stdafx.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	ÀÚÁÖ »ç¿ëÇÏÁö¸¸ ÀÚÁÖ º¯°æµÇÁö´Â ¾Ê´Â Ç¥ÁØ ½Ã½ºÅÛ Æ÷ÇÔ ÆÄÀÏ ¹× \n
-			ÇÁ·ÎÁ§Æ® °ü·Ã Æ÷ÇÔ ÆÄÀÏÀÌ µé¾î ÀÖ´Â Æ÷ÇÔ ÆÄÀÏÀÔ´Ï´Ù. \n
-			TODO: ÇÁ·Î±×·¥¿¡ ÇÊ¿äÇÑ Ãß°¡ Çì´õ´Â ¿©±â¿¡¼­ ÂüÁ¶ÇÕ´Ï´Ù.
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	ìì£¼ ì‚¬ìš©í•˜ì§€ë§Œ ìì£¼ ë³€ê²½ë˜ì§€ëŠ” ì•ŠëŠ” í‘œì¤€ ì‹œìŠ¤í…œ í¬í•¨ íŒŒì¼ ë° \n
+			í”„ë¡œì íŠ¸ ê´€ë ¨ í¬í•¨ íŒŒì¼ì´ ë“¤ì–´ ìˆëŠ” í¬í•¨ íŒŒì¼ì…ë‹ˆë‹¤. \n
+			TODO: í”„ë¡œê·¸ë¨ì— í•„ìš”í•œ ì¶”ê°€ í—¤ë”ëŠ” ì—¬ê¸°ì—ì„œ ì°¸ì¡°í•©ë‹ˆë‹¤.
 */
 
 #pragma once
@@ -24,11 +24,11 @@
 #pragma comment(lib, "SDL_ttf")
 
 /**
-	@brief dst Surface¿¡ scr °æ·Î¿¡ ÀÖ´Â ÀÌ¹ÌÁö x, y ÁÂÇ¥¿¡ Ãâ·Â.
-	@param dst scr¸¦ Ãâ·ÂÇÒ SDL_SurfaceÀÇ Æ÷ÀÎÅÍ
-	@param x   Ãâ·Â µÉ x ÁÂÇ¥ 
-	@param y   Ãâ·Â µÉ y ÁÂÇ¥
-	@param src Ãâ·ÂÇÒ SDL_SurfaceÀÇ Æ÷ÀÎÅÍ
+	@brief dst Surfaceì— scr ê²½ë¡œì— ìˆëŠ” ì´ë¯¸ì§€ x, y ì¢Œí‘œì— ì¶œë ¥.
+	@param dst scrë¥¼ ì¶œë ¥í•  SDL_Surfaceì˜ í¬ì¸í„°
+	@param x   ì¶œë ¥ ë  x ì¢Œí‘œ 
+	@param y   ì¶œë ¥ ë  y ì¢Œí‘œ
+	@param src ì¶œë ¥í•  SDL_Surfaceì˜ í¬ì¸í„°
 */ 
 inline void DrawSurface(SDL_Surface *dst,int x,int y,SDL_Surface *src)
 {	
@@ -39,10 +39,10 @@ inline void DrawSurface(SDL_Surface *dst,int x,int y,SDL_Surface *src)
 }
 
 /**
-	@brief ¼ıÀÚ 2°³ÀÇ ¹üÀ§¾È¿¡¼­ ·£´ı°ªÀ» Ãâ·ÂÇÕ´Ï´Ù.
-	@param x x ºÎÅÍ
-	@param y y ±îÁö
-	@return x~y ÀÇ ¹üÀ§ ³» ·£´ı°ª
+	@brief ìˆ«ì 2ê°œì˜ ë²”ìœ„ì•ˆì—ì„œ ëœë¤ê°’ì„ ì¶œë ¥í•©ë‹ˆë‹¤.
+	@param x x ë¶€í„°
+	@param y y ê¹Œì§€
+	@return x~y ì˜ ë²”ìœ„ ë‚´ ëœë¤ê°’
 */
 inline int BaseRand(int x, int y){
 	static int z = 0;

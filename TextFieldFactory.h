@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	TextFieldFactory.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	SDL ¶óÀÌºê·¯¸®¿¡¼­ TextÆ² ¶ç¿ì±â À§ÇÑ Surface¸¦ ¸¸µé¾îÁÖ´Â Å¬·¡½º.
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	SDL ë¼ì´ë¸ŒëŸ¬ë¦¬ì—ì„œ Textí‹€ ë„ìš°ê¸° ìœ„í•œ Surfaceë¥¼ ë§Œë“¤ì–´ì£¼ëŠ” í´ë˜ìŠ¤.
 */
 
 #pragma once

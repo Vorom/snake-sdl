@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	han2unicode.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	´Ù¿î ¹ÞÀº Çì´õÆÄÀÏ. string->unicode
+	@author ì‹¬ìž¬í™˜(sim436@gmail.com)
+	@brief	ë‹¤ìš´ ë°›ì€ í—¤ë”íŒŒì¼. string->unicode
 */
 
 /* KSC5601 -> Unicode 2.0 mapping table, compressed for the 94*94 codeset. */

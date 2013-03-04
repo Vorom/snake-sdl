@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	PvPStageScene.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	Sanke °ÔÀÓ¿¡¼­ ´ëÀü¸ğµåÀÇ Scene Å¬·¡½º
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	Sanke ê²Œì„ì—ì„œ ëŒ€ì „ëª¨ë“œì˜ Scene í´ë˜ìŠ¤
 */
 
 #pragma once

@@ -1,8 +1,8 @@
-/** 
+ï»¿/** 
 	@file	ISnakeSingleScene.h
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	Sanke °ÔÀÓ¿¡¼­ ½Ì±Û¸ğµåÀÇ Stage ¿¡ ´ëÇÑ Ãß»óÅ¬·¡½º
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	Sanke ê²Œì„ì—ì„œ ì‹±ê¸€ëª¨ë“œì˜ Stage ì— ëŒ€í•œ ì¶”ìƒí´ë˜ìŠ¤
 */
 
 #pragma once

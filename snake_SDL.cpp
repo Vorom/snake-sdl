@@ -1,33 +1,33 @@
-/** 
+ï»¿/** 
 	@file	sanke_SDL.cpp
 	@date	2013-03-03
-	@author ½ÉÀçÈ¯(sim436@gmail.com)
-	@brief	ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+	@author ì‹¬ì¬í™˜(sim436@gmail.com)
+	@brief	ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 */
 
 #include "stdafx.h"
 #include "Game.h"
 
 /**
-	@brief ¸ŞÀÎ ÇÔ¼ö.
+	@brief ë©”ì¸ í•¨ìˆ˜.
 */
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SDL_Init(SDL_INIT_VIDEO);	///< SDL ÃÊ±âÈ­
-	TTF_Init();					///< TTF ÃÊ±âÈ­
+	SDL_Init(SDL_INIT_VIDEO);	///< SDL ì´ˆê¸°í™”
+	TTF_Init();					///< TTF ì´ˆê¸°í™”
 
-	SDL_Surface* screen = SDL_SetVideoMode(640, 480, 32, SDL_HWSURFACE||SDL_DOUBLEBUF); ///< ÃÖ»óÀ§ ºä ÃÊ±âÈ­. 640*480 / 32bpp / ´õºí¹öÆÛ¸µ 
+	SDL_Surface* screen = SDL_SetVideoMode(640, 480, 32, SDL_HWSURFACE||SDL_DOUBLEBUF); ///< ìµœìƒìœ„ ë·° ì´ˆê¸°í™”. 640*480 / 32bpp / ë”ë¸”ë²„í¼ë§ 
 	Game *pGame = new Game(screen);
 
 	while(1) {
-		pGame->Update();	///< °ÔÀÓ °»½Å
-		SDL_Delay(10);		///< 10ms µô·¹ÀÌ
+		pGame->Update();	///< ê²Œì„ ê°±ì‹ 
+		SDL_Delay(10);		///< 10ms ë”œë ˆì´
 	}
 
-	SDL_Quit();	///< SDL Á¾·á
-	TTF_Quit();	///< TTF Á¾·á
+	SDL_Quit();	///< SDL ì¢…ë£Œ
+	TTF_Quit();	///< TTF ì¢…ë£Œ
 
-	delete pGame; ///< Game °´Ã¼ Á¤¸®
+	delete pGame; ///< Game ê°ì²´ ì •ë¦¬
 	pGame = NULL;
 
 	return 0;
